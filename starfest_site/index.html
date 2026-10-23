@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#031225" />
+  <title>StarFest Latinoamérica — Prototipo</title>
+  <meta name="description" content="Prototipo web de StarFest Latinoamérica: Venezuela, Colombia y Chile." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="StarFest Latinoamérica">
+      <span class="brand-star">✦</span>
+      <span class="brand-lockup"><strong>STARFEST</strong><small>LATINOAMÉRICA</small></span>
+    </a>
+    <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a href="#starfest">StarFest</a>
+      <a href="#paises">Eventos</a>
+      <a href="#experiencia">Experiencia</a>
+      <a href="#participa">Participa</a>
+      <a href="#publicaciones">Publicaciones</a>
+      <a href="#noticias">Noticias</a>
+      <a href="#archivo">Archivo</a>
+    </nav>
+    <a class="header-cta" href="#paises">Próximo StarFest</a>
+  </header>
+
+  <main>
+    <section class="hero" id="starfest">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-content reveal">
+        <div class="eyebrow"><span></span> CHILE · COLOMBIA · VENEZUELA</div>
+        <h1>UNA GALAXIA.<br><em>UNA COMUNIDAD.</em></h1>
+        <p>Una celebración latinoamericana creada por fans para vivir, compartir y llevar más lejos la cultura que nos une.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#experiencia">Descubre StarFest</a>
+          <a class="btn btn-ghost" href="#paises">Próximas ediciones</a>
+        </div>
+      </div>
+      <a class="hero-announcement" href="#venezuela">
+        <span class="pulse"></span>
+        <span><b>STARFEST VENEZUELA 2027</b><small>Próximamente · Caracas</small></span>
+        <span class="arrow">↗</span>
+      </a>
+      <div class="scroll-cue">DESLIZA <span>↓</span></div>
+    </section>
+
+    <section class="authority section reveal">
+      <div class="section-kicker">TRAYECTORIA</div>
+      <div class="authority-head">
+        <h2>UNA HISTORIA QUE<br>YA ESTÁ EN MARCHA.</h2>
+        <p>StarFest no empieza hoy. Esta plataforma reúne el recorrido, las comunidades y las ediciones que han construido la convención en Latinoamérica.</p>
+      </div>
+      <div class="stats-grid">
+        <article class="stat"><strong>3</strong><span>PAÍSES</span><small>Presencia regional</small></article>
+        <article class="stat"><strong>+X</strong><span>AÑOS</span><small>De historia compartida</small></article>
+        <article class="stat"><strong>XX</strong><span>EDICIONES</span><small>Realizadas y por venir</small></article>
+        <article class="stat"><strong>X+</strong><span>ASISTENTES</span><small>Dato por consolidar</small></article>
+        <article class="stat"><strong>XX</strong><span>COMUNIDADES</span><small>Fans, clubes y colectivos</small></article>
+      </div>
+      <p class="data-note">Los valores “X” son placeholders del prototipo y deben sustituirse por cifras verificadas.</p>
+    </section>
+
+    <section class="countries section" id="paises">
+      <div class="section-kicker reveal">STARFEST EN LATINOAMÉRICA</div>
+      <div class="section-title-row reveal">
+        <h2>TRES PAÍSES.<br><span>UNA MISMA PASIÓN.</span></h2>
+        <p>Cada edición tiene identidad local. Todas forman parte de una misma historia regional.</p>
+      </div>
+      <div class="country-grid">
+        <article class="country-card venezuela reveal" id="venezuela">
+          <div class="country-media venezuela-media"></div>
+          <div class="country-overlay"></div>
+          <div class="country-top"><span>01</span><span class="status live">ACTIVO</span></div>
+          <div class="country-copy">
+            <small>PRÓXIMA EDICIÓN</small>
+            <h3>VENEZUELA</h3>
+            <p>Caracas · 2027</p>
+            <button class="text-link country-open" data-country="venezuela">Descubre StarFest Venezuela <span>↗</span></button>
+          </div>
+        </article>
+        <article class="country-card colombia reveal">
+          <div class="country-media colombia-media"></div>
+          <div class="country-overlay"></div>
+          <div class="country-top"><span>02</span><span class="status live">ACTIVO</span></div>
+          <div class="country-copy">
+            <small>CAPÍTULO REGIONAL</small>
+            <h3>COLOMBIA</h3>
+            <p>Próxima edición por anunciar</p>
+            <button class="text-link country-open" data-country="colombia">Descubre StarFest Colombia <span>↗</span></button>
+          </div>
+        </article>
+        <article class="country-card chile reveal">
+          <div class="country-media chile-media"></div>
+          <div class="country-overlay"></div>
+          <div class="country-top"><span>03</span><span class="status legacy">LEGADO</span></div>
+          <div class="country-copy">
+            <small>HISTORIA STARFEST</small>
+            <h3>CHILE</h3>
+            <p>Parte del origen regional</p>
+            <button class="text-link country-open" data-country="chile">Conoce su historia <span>↗</span></button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="experience section" id="experiencia">
+      <div class="experience-bg" aria-hidden="true"></div>
+      <div class="section-kicker reveal">LA EXPERIENCIA</div>
+      <div class="experience-title reveal">
+        <h2>NO VENGAS SOLO A VERLO.<br><span>VEN A VIVIRLO.</span></h2>
+        <p>StarFest se diseña para que el visitante entre a una comunidad en movimiento, no para que observe una feria desde afuera.</p>
+      </div>
+      <div class="experience-grid">
+        <article class="experience-card reveal"><img src="assets/icon-r2.png" alt="Icono droide"/><span>01</span><h3>JUEGA</h3><p>Desafíos, juegos interactivos y experiencias que te meten dentro del evento.</p></article>
+        <article class="experience-card reveal"><img src="assets/icon-c3po.png" alt="Icono androide"/><span>02</span><h3>CONOCE</h3><p>Legiones, cosplayers, artistas, coleccionistas y comunidades que interactúan contigo.</p></article>
+        <article class="experience-card reveal"><img src="assets/icon-falcon.png" alt="Icono nave"/><span>03</span><h3>EXPLORA</h3><p>Props, modelos, figuras, réplicas, memorabilia y piezas que normalmente no ves juntas.</p></article>
+        <article class="experience-card text-card reveal"><span>04</span><h3>CREA</h3><p>Dibujo, arte, talleres, retratos y actividades para llevarte algo hecho por ti.</p></article>
+        <article class="experience-card text-card reveal"><span>05</span><h3>APRENDE</h3><p>Charlas, conversatorios, demostraciones y encuentros alrededor del fandom.</p></article>
+        <article class="experience-card text-card reveal"><span>06</span><h3>PARTICIPA</h3><p>Ven disfrazado, compite, fotografía, comparte y conviértete en parte del espectáculo.</p></article>
+      </div>
+      <div class="free-entry reveal">
+        <div><small>PRINCIPIO STARFEST</small><strong>ENTRADA LIBRE</strong></div>
+        <p>Recorrer, descubrir, interactuar, ver exhibiciones y encontrarte con las comunidades forma parte de la experiencia base. Algunas actividades especiales pueden usar créditos o aportes opcionales.</p>
+      </div>
+    </section>
+
+    <section class="participate section" id="participa">
+      <div class="section-kicker reveal">FORMAR PARTE</div>
+      <div class="section-title-row reveal">
+        <h2>¿CÓMO QUIERES<br><span>ENTRAR A STARFEST?</span></h2>
+        <p>Tres públicos distintos, tres caminos directos. La web debe convertir interés en acción.</p>
+      </div>
+      <div class="audience-grid">
+        <article class="audience-card fan reveal">
+          <div class="audience-number">01</div><small>FANÁTICOS Y VISITANTES</small><h3>VIVE<br>STARFEST</h3>
+          <p>Fechas, actividades, cosplay, programación, ubicación, FAQ y todo lo necesario para llegar listo.</p>
+          <a href="#visit" class="btn btn-small">Planifica tu visita</a>
+        </article>
+        <article class="audience-card exhibitor reveal">
+          <div class="audience-number">02</div><small>COLECCIONISTAS Y COMERCIO</small><h3>EXHIBE<br>EN STARFEST</h3>
+          <p>Trae tu colección para compartirla con nuevos públicos o reserva un espacio comercial para vender.</p>
+          <button class="btn btn-small modal-open" data-modal="expositor">Quiero exponer</button>
+        </article>
+        <article class="audience-card sponsor reveal">
+          <div class="audience-number">03</div><small>MARCAS Y ALIADOS</small><h3>LLEVA TU<br>MARCA</h3>
+          <p>Patrocina experiencias, activa tu marca y conéctala con una comunidad apasionada.</p>
+          <button class="btn btn-small modal-open" data-modal="sponsor">Oportunidades de patrocinio</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="news section" id="noticias">
+      <div class="section-kicker reveal">ACTUALIDAD</div>
+      <div class="section-title-row reveal"><h2>ESTÁ PASANDO<br><span>EN STARFEST.</span></h2><p>Una capa editorial que mantiene la organización viva antes, durante y después de cada edición.</p></div>
+      <div class="news-grid">
+        <article class="news-card feature reveal"><img src="assets/event-cover.jpg" alt="Gráfico StarFest Venezuela 16 de mayo"/><div class="news-body"><small>SAVE THE DATE · DEMO</small><h3>StarFest Venezuela prepara su próxima edición</h3><p>Una nueva cita para fans, comunidades, coleccionistas y marcas.</p><a href="#">Leer actualización ↗</a></div></article>
+        <article class="news-card reveal"><img src="assets/countdown.jpg" alt="Convocatoria StarFest"/><div class="news-body"><small>CONVOCATORIA · DEMO</small><h3>Nuevas colecciones para StarFest</h3><p>¿Tienes piezas que merecen un público nuevo?</p><a href="#">Conocer convocatoria ↗</a></div></article>
+        <article class="news-card graphic-card reveal"><div class="mini-art r2-art"><img src="assets/icon-r2.png" alt=""/></div><div class="news-body"><small>EXPOSITORES · DEMO</small><h3>Lleva tu tienda o emprendimiento al evento</h3><p>Mesas y espacios comerciales para la próxima edición.</p><a href="#participa">Cómo participar ↗</a></div></article>
+        <article class="news-card graphic-card reveal"><div class="mini-art magazine-art">STARFEST<br><span>MAGAZINE</span></div><div class="news-body"><small>PUBLICACIONES · DEMO</small><h3>La revista StarFest prepara una nueva edición</h3><p>Historia, arte, comunidad y cultura fan en una publicación coleccionable.</p><a href="#publicaciones">Ver publicaciones ↗</a></div></article>
+      </div>
+      <p class="demo-note">Contenido editorial ficticio para visualizar el prototipo. No representa anuncios oficiales.</p>
+    </section>
+
+    <section class="archive section" id="archivo">
+      <div class="section-kicker reveal">PEDIGRÍ DIGITAL</div>
+      <div class="section-title-row reveal"><h2>LA HISTORIA<br><span>NO DESAPARECE.</span></h2><p>Cada edición permanece en el archivo para que la trayectoria pueda verse, no solamente contarse.</p></div>
+      <div class="timeline reveal">
+        <div class="timeline-year active"><strong>2027</strong><span>PRÓXIMO</span></div>
+        <div class="timeline-year"><strong>2026</strong><span>VENEZUELA · COLOMBIA</span></div>
+        <div class="timeline-year"><strong>2025</strong><span>ARCHIVO</span></div>
+        <div class="timeline-year"><strong>2024</strong><span>ARCHIVO</span></div>
+        <div class="timeline-year"><strong>2023</strong><span>ARCHIVO</span></div>
+      </div>
+      <div class="archive-feature reveal">
+        <div class="archive-poster"><img src="assets/starfest-logo-poster.png" alt="StarFest Venezuela 2026" /></div>
+        <div class="archive-copy"><small>EDICIÓN DESTACADA</small><h3>STARFEST<br>VENEZUELA 2026</h3><p>Galería, programa, actividades, publicaciones, aliados y memorabilia de la edición pueden vivir aquí como prueba permanente de lo ocurrido.</p><div class="archive-tags"><span>GALERÍA</span><span>PROGRAMA</span><span>REVISTA</span><span>ALIADOS</span></div><button class="text-link">Explorar edición <span>↗</span></button></div>
+      </div>
+    </section>
+
+    <section class="collectibles section">
+      <div class="collectible-visual reveal">
+        <div class="token"><span>SF</span><small>2027</small></div>
+        <div class="token token-2"><span>★</span><small>VZLA</small></div>
+        <div class="token token-3"><span>03</span><small>LATAM</small></div>
+      </div>
+      <div class="collectible-copy reveal"><div class="section-kicker">MEMORIA FÍSICA</div><h2>COLECCIONA<br><span>TU HISTORIA.</span></h2><p>Créditos, pines, stickers, credenciales, posters y publicaciones anuales pueden convertir cada edición en una pieza que el fan quiera conservar.</p><p class="quote">“Yo estuve ahí” también puede ser parte de la marca.</p></div>
+    </section>
+
+    <section class="publications section" id="publicaciones">
+      <div class="section-kicker reveal">EDITORIAL</div>
+      <div class="pub-grid">
+        <div class="pub-cover reveal"><div class="magazine"><small>PUBLICACIÓN OFICIAL</small><strong>STAR<br>FEST</strong><span>LATINOAMÉRICA</span><em>2027</em></div></div>
+        <div class="pub-copy reveal"><h2>PUBLICACIONES<br><span>STARFEST</span></h2><p>La revista deja de ser un PDF aislado y se convierte en un activo editorial permanente: historias, entrevistas, arte, comunidad y espacios comerciales para aliados.</p><div class="pub-actions"><a class="btn btn-primary" href="#">Leer edición</a><a class="btn btn-ghost" href="#archivo">Ver archivo</a></div></div>
+      </div>
+    </section>
+
+    <section class="visit section" id="visit">
+      <div class="visit-panel reveal">
+        <div><div class="section-kicker">PRÓXIMA VISITA</div><h2>PLANIFICA.<br><span>LLEGA. VÍVELO.</span></h2></div>
+        <div class="visit-data"><div><small>EDICIÓN</small><strong>VENEZUELA 2027</strong></div><div><small>FECHA</small><strong>POR ANUNCIAR</strong></div><div><small>CIUDAD</small><strong>CARACAS</strong></div><div><small>ENTRADA</small><strong>LIBRE</strong></div></div>
+        <div class="visit-actions"><a class="btn btn-primary" href="#noticias">Recibir novedades</a><a class="btn btn-ghost" href="#participa">Participar</a></div>
+      </div>
+    </section>
+
+    <section class="partners section">
+      <div class="section-kicker reveal">CREDIBILIDAD COMPARTIDA</div>
+      <h2 class="reveal">QUIENES HAN<br><span>FORMADO PARTE.</span></h2>
+      <p class="partners-intro reveal">Espacio reservado para sponsors, aliados, comunidades e instituciones verificadas.</p>
+      <div class="logo-wall reveal"><span>PARTNER 01</span><span>COMUNIDAD 02</span><span>ALIADO 03</span><span>MARCA 04</span><span>ORGANIZACIÓN 05</span><span>PARTNER 06</span></div>
+    </section>
+
+    <section class="closing section reveal">
+      <div class="closing-bg"></div>
+      <div class="closing-copy"><small>STARFEST LATINOAMÉRICA</small><h2>LA GALAXIA<br>SE ENCUENTRA AQUÍ.</h2><div class="closing-actions"><a class="btn btn-primary" href="#paises">Ver eventos</a><button class="btn btn-ghost modal-open" data-modal="contacto">Contactar StarFest</button></div></div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#top"><span class="brand-star">✦</span><span class="brand-lockup"><strong>STARFEST</strong><small>LATINOAMÉRICA</small></span></a>
+    <div class="footer-cols">
+      <div><strong>EVENTOS</strong><a href="#venezuela">Venezuela</a><a href="#paises">Colombia</a><a href="#paises">Chile</a></div>
+      <div><strong>PARTICIPA</strong><a href="#participa">Expositores</a><a href="#participa">Patrocinantes</a><a href="#participa">Prensa</a><a href="#participa">Voluntariado</a></div>
+      <div><strong>EXPLORA</strong><a href="#experiencia">Experiencia</a><a href="#noticias">Noticias</a><a href="#publicaciones">Publicaciones</a><a href="#archivo">Archivo</a></div>
+    </div>
+    <div class="footer-bottom"><span>Prototipo conceptual StarFest Latinoamérica · 2026</span><p>StarFest se presenta como iniciativa independiente de fans/comunidad. Las marcas y propiedades intelectuales de terceros pertenecen a sus respectivos titulares.</p></div>
+  </footer>
+
+  <dialog class="modal" id="modal">
+    <button class="modal-close" aria-label="Cerrar">×</button>
+    <div class="modal-content"></div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
